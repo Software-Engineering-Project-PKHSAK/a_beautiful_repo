@@ -1,7 +1,7 @@
 def calculate_factorial(n):
-    if n<0:
-        return "No real number solution exists for negative number"
-    elif n==0 or n==1:
+    # if n<0:
+        # return "No real number solution exists for negative number"
+    if n==0 or n==1:
         return 1
     else: 
         return n*calculate_factorial(n-1);
