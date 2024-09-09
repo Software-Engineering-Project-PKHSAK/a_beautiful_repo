@@ -1,0 +1,7 @@
+*__pycache__*
+
+.coverage
+.coverage.*
+_build
+.DS_Store
+.vscode
