@@ -19,4 +19,4 @@ jobs:
         pip install autopep8
     - name: Autopep8 format analysis 
       run: |
-        find /path/to/directory -type f -name '*.py' | xargs -I {} sh -c 'autopep8 --diff "{}" | grep -q . && echo "{}: Failed" || echo "{}: Passed"'
+        find hw2/ -type f -name '*.py' | xargs -I {} sh -c 'autopep8 --diff "{}" | grep -q . && echo "{}: Failed" || echo "{}: Passed"'

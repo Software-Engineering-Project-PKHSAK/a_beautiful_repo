@@ -19,4 +19,4 @@ jobs:
         pip install pyflakes
     - name: Pyflakes static analysis
       run: |
-        find /path/to/directory -type f -name '*.py' | xargs -I {} sh -c 'pyflakes "{}" | grep -q . && echo "{}: Failed" || echo "{}: Passed"'
+        find hw2/ -type f -name '*.py' | xargs -I {} sh -c 'pyflakes "{}" | grep -q . && echo "{}: Failed" || echo "{}: Passed"'
