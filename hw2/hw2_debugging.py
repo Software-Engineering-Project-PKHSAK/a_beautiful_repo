@@ -9,7 +9,7 @@ def merge_sort(arr_input):
     Recursive function to split array in half,
     then combine the two sorted halves
     """
-    if len((arr_input)) <= 1: #failing autopep with extra nesting (())
+    if len(arr_input) <= 1:
         return arr_input
 
     half = len(arr_input) // 2
