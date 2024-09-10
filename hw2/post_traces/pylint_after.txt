@@ -1,0 +1,14 @@
+# pylint hw2_debugging.py
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 5.42/10, +4.58)
+
+# pylint rand.py
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 8.57/10, +1.43)
+
+# pylint test_hw2_debugging
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 5.00/10, +5.00)

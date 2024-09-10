@@ -1,12 +1,11 @@
 """
 Module to generate array with random numbers
 """
-
 import subprocess
 
 
 def random_array(arr):
-    """Function to generate array"""
+    """Function to generate random array"""
     shuffled_num = None
 
     for index, _ in enumerate(arr):
