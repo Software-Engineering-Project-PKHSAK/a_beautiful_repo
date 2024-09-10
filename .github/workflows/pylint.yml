@@ -1,4 +1,4 @@
-name: Autopep static analysis
+name: Pylint static analysis
 
 on: [push]
 
@@ -16,7 +16,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install autopep8
-    - name: Autopep8 format analysis 
+        pip install pylint
+    - name: Pylint format analysis 
       run: |
-        find /path/to/directory -type f -name '*.py' | xargs -I {} sh -c 'autopep8 --diff "{}" | grep -q . && echo "{}: Failed" || echo "{}: Passed"'
+        pylint hw2/*.py
