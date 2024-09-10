@@ -19,11 +19,8 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install autopep8 pylint pyflakes pytest pytest-cov
+        pip install pylint pyflakes pytest pytest-cov
         # pip install -r requirements.txt
-    - name: Autopep8 Formatting
-      run: |
-        autopep8 --in-place --aggressive --aggressive hw2/*.py --verbose
     - name: Pylint static anaylsis
       run: |
         pylint hw2/*.py
