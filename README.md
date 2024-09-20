@@ -5,3 +5,5 @@
 ![Pyflakes](https://img.shields.io/github/actions/workflow/status/Software-Engineering-Project-PKHSAK/a_beautiful_repo/.github/workflows/pyflakes.yml?branch=main&label=pyflakes)
 ![Pylint](https://img.shields.io/github/actions/workflow/status/Software-Engineering-Project-PKHSAK/a_beautiful_repo/.github/workflows/pylint.yml?branch=main&label=pylint)
 ![All tests](https://github.com/Software-Engineering-Project-PKHSAK/a_beautiful_repo/actions/workflows/python-app.yml/badge.svg?event=push)
+<!-- my-badges start -->
+<!-- my-badges end -->
