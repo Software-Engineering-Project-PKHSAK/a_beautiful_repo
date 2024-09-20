@@ -7,3 +7,4 @@
 ![All tests](https://github.com/Software-Engineering-Project-PKHSAK/a_beautiful_repo/actions/workflows/python-app.yml/badge.svg?event=push)
 <!-- my-badges start -->
 <!-- my-badges end -->
+[![](https://img.shields.io/maven-central/v/org.cicirello/chips-n-salsa.svg?label=Maven%20Central&logo=apachemaven)](https://search.maven.org/artifact/org.cicirello/chips-n-salsa)
