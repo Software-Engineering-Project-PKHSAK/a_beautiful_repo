@@ -6,8 +6,8 @@ gawk -F, 'BEGIN { count = 0; sum_age = 0; }
     $3 == 2 && substr($13, 1, 1) == "S" {
 
         # Replace male/female with M/F
-        gsub(/male/, "M", $6);
         gsub(/female/, "F", $6);
+        gsub(/male/, "M", $6);
         
         # Check if age is valid number
         if ($7 != "") {
