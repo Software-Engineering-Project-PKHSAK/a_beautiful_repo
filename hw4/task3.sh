@@ -1,3 +1,5 @@
+#!/bin/bash
+
 gawk -F, 'BEGIN { count = 0; sum_age = 0; }
 
     # Check for passengers in 2nd class and embarked at Southampton
