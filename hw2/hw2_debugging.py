@@ -3,7 +3,6 @@ Module to sort the given array by merge sort
 """
 import rand
 
-
 def merge_sort(arr_input):
     """
     Recursive function to split array in half,

@@ -9,3 +9,8 @@
 # autopep8 --in-place --aggressive --aggressive test_hw2_debugging.py --verbose
 [file:test_hw2_debugging.py]
 --->  0 issue(s) to fix {}
+
+# autopep8 --in-place --aggressive --aggressive test_hw2_debugging.py --verbose
+[file:test_hw2_debugging.py]
+--->  3 issue(s) to fix {'E302': {3}, 'W292': {24}, 'W291': {24}}
+--->  0 issue(s) to fix {}
